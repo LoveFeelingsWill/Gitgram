@@ -6,9 +6,9 @@
         "telegram",
         "github"
     ],
-    "repository": "https://github.com/AnonymousBoy1025/GitGram",
-    "website": "https://github.com/AnonymousBoy1025/GitGram",
-    "success_url": "https://telegram.me.me/AnonymousRobotSupport",
+    "repository": "https://github.com/TheultronX/GitGram",
+    "website": "https://github.com/TheultronX/GitGram",
+    "success_url": "https://t.me/UltronXSupport",
     "stack": "container",
     "env": {
         "ENV": {
