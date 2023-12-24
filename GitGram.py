@@ -21,7 +21,7 @@ if ENV:
     PROJECT_NAME = environ.get('PROJECT_NAME', None)
     ip_addr = environ.get('APP_URL', None)
     # If you kanged our project without forking it, we'll get you DMCA'd.
-    GIT_REPO_URL = environ.get('GIT_REPO_URL', "https://github.com/AnonymousBoy1025/GitGram")
+    GIT_REPO_URL = environ.get('GIT_REPO_URL', "https://github.com/LoveFeelingsWill/Gitgram")
 else:
     BOT_TOKEN = config.BOT_TOKEN
     PROJECT_NAME = config.PROJECT_NAME
@@ -38,7 +38,7 @@ def start(_bot, update):
     """/start message for bot"""
     message = update.effective_message
     message.reply_text(
-        f"ᴛʜɪs ɪs ᴛʜᴇ ᴇᴠᴇɴᴛs ᴡᴀᴛᴄʜᴇʀ ʙᴏᴛ ꜰᴏʀ {PROJECT_NAME}. ɪ ᴊᴜsᴛ ɴᴏᴛɪꜰʏ ᴏᴡɴᴇʀs ᴀʙᴏᴜᴛ ᴡʜᴀᴛ ɪs ʜᴀᴘᴘᴇɴɪɴɢ ᴏɴ ᴛʜᴇɪʀ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀɪᴇs ᴛʜʀᴏᴜɢʜ ᴡᴇʙʜᴏᴏᴋs.\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ [ᴅᴇᴘʟᴏʏ](https://github.com/AnonymousBoy1025/GitGram) ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴏʀ ᴜsᴇ /help ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ​ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs​.",
+        f"ᴛʜɪs ɪs ᴛʜᴇ ᴇᴠᴇɴᴛs ᴡᴀᴛᴄʜᴇʀ ʙᴏᴛ ꜰᴏʀ {PROJECT_NAME}. ɪ ᴊᴜsᴛ ɴᴏᴛɪꜰʏ ᴏᴡɴᴇʀs ᴀʙᴏᴜᴛ ᴡʜᴀᴛ ɪs ʜᴀᴘᴘᴇɴɪɴɢ ᴏɴ ᴛʜᴇɪʀ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀɪᴇs ᴛʜʀᴏᴜɢʜ ᴡᴇʙʜᴏᴏᴋs.\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ [ᴅᴇᴘʟᴏʏ](https://github.com/LoveFeelingsWill/Gitgram) ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ᴏʀ ᴜsᴇ /help ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ​ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs​.",
         parse_mode="markdown")
 
 
@@ -55,7 +55,7 @@ def support(_bot, update):
     """Links to Support"""
     message = update.effective_message
     message.reply_text(
-        f"*ɢᴇᴛᴛɪɴɢ sᴜᴘᴘᴏʀᴛ*\n\nꜰᴏʀ ɢᴇᴛᴛɪɴɢ ʜᴇʟᴘ ɪɴ ᴜsɪɴɢ ᴍᴇ, ᴊᴏɪɴ [Anonymous Support](https://telegram.me/AnonymousRobotSupport).",
+        f"*ɢᴇᴛᴛɪɴɢ sᴜᴘᴘᴏʀᴛ*\n\nꜰᴏʀ ɢᴇᴛᴛɪɴɢ ʜᴇʟᴘ ɪɴ ᴜsɪɴɢ ᴍᴇ, ᴊᴏɪɴ [Dil Support](https://github.com/LoveFeelingsWill/Gitgram).",
         parse_mode="markdown"
     )
 
@@ -64,7 +64,7 @@ def source(_bot, update):
     """Link to Source"""
     message = update.effective_message
     message.reply_text(
-        f"*sᴏᴜʀᴄᴇ​*:\n[ɢɪᴛɢʀᴀᴍ ʀᴇᴘᴏ​](https://github.com/AnonymousBoy1025/GitGram).",
+        f"*sᴏᴜʀᴄᴇ​*:\n[ɢɪᴛɢʀᴀᴍ ʀᴇᴘᴏ​](https://github.com/LoveFeelingsWill/Gitgram).",
         parse_mode="markdown"
     )
 
