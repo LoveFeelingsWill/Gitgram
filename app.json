@@ -27,5 +27,10 @@
             "description": "Heroku app url, example: https://appname.herokuapp.com",
             "value": ""
         }
-    }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
   }
