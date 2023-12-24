@@ -5,7 +5,7 @@
 
 Click below, Fill up the required fields and then hit **Deploy App** button.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnonymousBoy1025/GitGram)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LoveFeelingsWill/Gitgram)
 
 
 # Setup:
